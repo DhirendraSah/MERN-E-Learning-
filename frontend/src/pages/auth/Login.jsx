@@ -5,7 +5,7 @@ import { UserData } from "../../context/UserContext";
 
 const Login = () => {
     const navigate = useNavigate()
-    const {btnLoading, loginUser} = UserData();
+    const {btnLoading, loginUser} = UserData("");
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("");
 
